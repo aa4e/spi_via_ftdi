@@ -48,9 +48,9 @@
 - The installation of the application is carried out by copying the executable file "SPI via FTDI.exe " from the installation media to the desired location. 
 - At startup, the application detects the presence of the necessary libraries and, if they are missing, tries to write them to the system directory. Therefore, it is advisable to perform the first launch with Administrator rights.
 - At startup, the application detects the presence of supported FTDI devices connected to the system and creates for each device has its own tab.
-- By default, the application is loaded in SPI mode. If you plan to work on the I2C interface, 1-Wire or MicroWire, you need to select the interface via the menu (Device -> Interface). 
+- By default, the application is loaded in SPI mode. If you plan to work on the I2C interface, 1-Wire or MicroWire, you need to select the interface via the menu (Device &#8594; Interface). 
 - The interface settings are selected by selecting the parameters in the left panel of the main application window. Each device is configured independently.
-- The connection to the FTDI device is performed by selecting the "Connect" item in the context menu called on the tab header. Deactivation - by pressing the same button. There is also a duplicate menu (Device -> Enable/disable the current one) and the keyboard shortcut Ctrl+C. 
+- The connection to the FTDI device is performed by selecting the "Connect" item in the context menu called on the tab header. Deactivation - by pressing the same button. There is also a duplicate menu (Device &#8594; Enable/disable the current one) and the keyboard shortcut Ctrl+C. 
 - Supports simultaneous connection to multiple FTDI devices.
 - Data transfer is performed by clicking on the "Write" button. Transfer is possible in three ways:
   - sending a file (a button with a folder icon);
@@ -59,7 +59,7 @@
 
 - Data is received from the slave device by pressing the "Read" button. Before reading the data, a command can be written to the slave. To do this , activate the "Command" switch and set the command in as an array of bytes in 16-digit representation, separated by spaces or dashes.
 - If a number other than 1 is entered in the field to the right of the read or write button, the reception will be performed the appropriate number of times in the cycle. If "0" is specified, then reading or writing will continue indefinitely (until forced to stop). 
-- When reading, all received data can be saved to a file (text or binary, depending on the "Reading Options" settings). You can open the recorded files through the "File" menu -> "Open received data". 
+- When reading, all received data can be saved to a file (text or binary, depending on the "Reading Options" settings). You can open the recorded files through the "File" menu &#8594; "Open received data". 
 
 ## 6. Application status and terms of distribution
 
