@@ -3,7 +3,7 @@
 ## Content
 
 1. Introduction
-2. Program features
+2. Application features
 3. System requirements
 4. Installing and configuring the program
 5. Working with the program
@@ -33,7 +33,7 @@
 
 ## 3. System requirements
 
-- Windows 7 and older operating system. The program works with both x86 and x64 operating systems. 
+- Windows 7 and older operating system. The application works with both x86 and x64 operating systems. 
 - .NET version 4.6.
 - The presence of a USB port.
 
@@ -45,11 +45,11 @@
 
 ## 5. Working with the Application
 
-- The installation of the program is carried out by copying the executable file "SPI via FTDI.exe " from the installation media to the desired location. 
-- At startup, the program detects the presence of the necessary libraries and, if they are missing, tries to write them to the system directory. Therefore, it is advisable to perform the first launch with Administrator rights.
-- At startup, the program detects the presence of supported FTDI devices connected to the system and creates for each device has its own tab.
-- By default, the program is loaded in SPI mode. If you plan to work on the I2C interface, 1-Wire or MicroWire, you need to select the interface via the menu (Device -> Interface). 
-- The interface settings are selected by selecting the parameters in the left panel of the main program window. Each device is configured independently.
+- The installation of the application is carried out by copying the executable file "SPI via FTDI.exe " from the installation media to the desired location. 
+- At startup, the application detects the presence of the necessary libraries and, if they are missing, tries to write them to the system directory. Therefore, it is advisable to perform the first launch with Administrator rights.
+- At startup, the application detects the presence of supported FTDI devices connected to the system and creates for each device has its own tab.
+- By default, the application is loaded in SPI mode. If you plan to work on the I2C interface, 1-Wire or MicroWire, you need to select the interface via the menu (Device -> Interface). 
+- The interface settings are selected by selecting the parameters in the left panel of the main application window. Each device is configured independently.
 - The connection to the FTDI device is performed by selecting the "Connect" item in the context menu called on the tab header. Deactivation - by pressing the same button. There is also a duplicate menu (Device -> Enable/disable the current one) and the keyboard shortcut Ctrl+C. 
 - Supports simultaneous connection to multiple FTDI devices.
 - Data transfer is performed by clicking on the "Write" button. Transfer is possible in three ways:
@@ -63,7 +63,7 @@
 
 ## 6. Application status and terms of distribution
 
-The application is used to exchange data with devices implementing SPI, I2C, 1-Wire or MicroWire interfaces. The program is not intended for sale. 
+The application is used to exchange data with devices implementing SPI, I2C, 1-Wire or MicroWire interfaces. The application is not intended for sale. 
 
 ## 7. Contacts
 
@@ -72,7 +72,6 @@ Author E-mail: contact AT soltau.ru
 ## 8. Copyright
 
 AAVE
-
 
 ## 9. Version History
 
