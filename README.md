@@ -5,9 +5,9 @@
 1. Introduction
 2. Application features
 3. System requirements
-4. Installing and configuring the program
-5. Working with the program
-6. Program status and terms of distribution
+4. Installing and configuring the application
+5. Working with the application
+6. Application status and terms of distribution
 7. Contacts
 8. Rights
 9. Version History
