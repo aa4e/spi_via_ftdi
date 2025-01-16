@@ -67,7 +67,9 @@ The application is used to exchange data with devices implementing SPI, I2C, 1-W
 
 ## 7. Contacts
 
-Author E-mail: contact AT soltau.ru
+Author: contact@soltau.ru
+
+Website: https://soltau.ru/index.php/themes/dev/item/421-realizatsiya-spi-s-pomoshchyu-mikroskhem-firmy-ftdi
 
 ## 8. Copyright
 
@@ -75,12 +77,15 @@ AAVE
 
 ## 9. Version History
 
-2016. SPI and I2C modes.
-2020. 1-Wire mode. Scripts (alpha).
-2021. Frequency meter. GPIO control. The I2C bus scanner.
-2022. The frequency generator.
-2023-02. uWire mode.
-2023-07. Improving the operation of the frequency meter. Working with EEPROM.
-2024-02. Translated into English. Improved work with EEPROM, support for FT_Prog profiles.
-2024-07. UART mode.
+* *2016:*  SPI and I2C modes.
+
+* *2020:*  1-Wire mode. Scripts (alpha).
+
+* *2021:*  Frequency meter. GPIO control. The I2C bus scanner.
+
+* *2022:*  The frequency generator.
+
+* *2023:*  uWire mode. Improving the operation of the frequency meter. Working with EEPROM.
+
+* *2024:*  Translated into English. Improved work with EEPROM, support for FT_Prog profiles. UART mode.
 
